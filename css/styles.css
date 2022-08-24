@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  background: hsl(233deg, 47%, 7%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1em;
+}
+
+main {
+  width: 350px;
+  background-color: hsl(244deg, 38%, 16%);
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  width: 100%;
+  border-radius: 0.5em 0.5em 0 0;
+}
+main header {
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+main header h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+main header h1 span {
+  color: hsl(277deg, 64%, 61%);
+}
+main header > p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 1rem;
+  line-height: 1.7em;
+}
+main header .stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.7em;
+  margin: 1.2em 0 0.5em;
+}
+main header .stats .stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main header .stats .stat h2 {
+  color: white;
+}
+main header .stats .stat p {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
