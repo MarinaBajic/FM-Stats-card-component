@@ -96,10 +96,6 @@ main {
     }
 }
 
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -108,4 +104,41 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1050px) {
+    main {
+        width: 950px;
+        height: 400px;
+        flex-direction: row-reverse;
+
+        img {
+            height: 100%;
+            border-radius: 0 $border-radius $border-radius 0;
+        }
+
+        header {
+            padding: 3.5em 5em;
+            text-align: left;
+            gap: 1.5em;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            > p {
+                color: $main-paragraph;
+                font-size: .9rem;
+                line-height: 1.7em;
+                margin-right: 2em;
+            }
+
+            .stats {
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 5em;
+                margin-top: 2em;
+            }
+        }
+    }
 }

@@ -81,4 +81,36 @@ main header .stats .stat p {
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+@media only screen and (min-width: 1050px) {
+  main {
+    width: 950px;
+    height: 400px;
+    flex-direction: row-reverse;
+  }
+  main img {
+    height: 100%;
+    border-radius: 0 0.5em 0.5em 0;
+  }
+  main header {
+    padding: 3.5em 5em;
+    text-align: left;
+    gap: 1.5em;
+  }
+  main header h1 {
+    font-size: 2rem;
+  }
+  main header > p {
+    color: hsla(0deg, 0%, 100%, 0.75);
+    font-size: 0.9rem;
+    line-height: 1.7em;
+    margin-right: 2em;
+  }
+  main header .stats {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5em;
+    margin-top: 2em;
+  }
 }/*# sourceMappingURL=styles.css.map */
