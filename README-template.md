@@ -10,9 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I didn't learn](#what-i-didn't-learn)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -41,18 +38,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-### What I didn't learn
-
-How to put a colour filter over an image.
-
-### Continued development
-
-Maybe one day I will figure out the color over image.
-
-### Useful resources
-
-Literally nothing.
 
 ## Author
 

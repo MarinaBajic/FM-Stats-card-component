@@ -26,9 +26,18 @@ main {
   justify-content: center;
   align-items: center;
 }
-main img {
+main img.mobile {
+  visibility: hidden;
+  width: 100%;
+}
+main img.desktop {
+  display: none;
+}
+main .img-container {
   width: 100%;
   border-radius: 0.5em 0.5em 0 0;
+  background: linear-gradient(rgba(111, 18, 169, 0.5), rgba(111, 18, 169, 0.5)), url(../images/image-header-mobile.jpg);
+  background-size: cover;
 }
 main header {
   padding: 2em;
@@ -42,7 +51,7 @@ main header h1 {
   font-size: 1.8rem;
 }
 main header h1 span {
-  color: hsl(277deg, 64%, 61%);
+  color: rgb(170, 92, 219);
 }
 main header > p {
   color: hsla(0deg, 0%, 100%, 0.75);
@@ -89,11 +98,19 @@ main header .stats .stat p {
     height: 400px;
     flex-direction: row-reverse;
   }
-  main img {
+  main img.mobile {
+    display: none;
+  }
+  main img.desktop {
+    display: unset;
+    visibility: hidden;
     height: 100%;
-    width: 50%;
-    flex-shrink: 0;
+  }
+  main .img-container {
+    height: 100%;
     border-radius: 0 0.5em 0.5em 0;
+    background: linear-gradient(rgba(111, 18, 169, 0.5), rgba(111, 18, 169, 0.5)), url(../images/image-header-desktop.jpg);
+    background-size: cover;
   }
   main header {
     padding: 3.5em 5em;
