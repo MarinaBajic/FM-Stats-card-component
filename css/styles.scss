@@ -114,6 +114,8 @@ main {
 
         img {
             height: 100%;
+            width: 50%;
+            flex-shrink: 0;
             border-radius: 0 $border-radius $border-radius 0;
         }
 

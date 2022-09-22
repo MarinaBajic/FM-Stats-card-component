@@ -91,6 +91,8 @@ main header .stats .stat p {
   }
   main img {
     height: 100%;
+    width: 50%;
+    flex-shrink: 0;
     border-radius: 0 0.5em 0.5em 0;
   }
   main header {
